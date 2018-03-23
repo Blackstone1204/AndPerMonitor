@@ -1,0 +1,599 @@
+2016-06-29_17_58_54 pass command[adb -s  9ca4d171 shell monkey --throttle 500 -s 53 --pct-anyevent 0 --pct-nav 0 --pct-touch 44 -p com.quvideo.xiaoying --pct-motion 30 --pct-trackball 8 --pct-syskeys 8 --pct-majornav 0 --pct-appswitch 10 --pct-flip 0 --monitor-native-crashes -v -v 200]
+*************************************************
+
+:Monkey: seed=53 count=200
+
+:AllowPackage: com.quvideo.xiaoying
+
+:IncludeCategory: android.intent.category.LAUNCHER
+
+:IncludeCategory: android.intent.category.MONKEY
+
+// Selecting main activities from category android.intent.category.LAUNCHER
+
+//   + Using main activity com.quvideo.xiaoying.app.SplashActivity (from package com.quvideo.xiaoying)
+
+// Selecting main activities from category android.intent.category.MONKEY
+
+// Seeded: 53
+
+// Event percentages:
+
+//   0: 44.0%
+
+//   1: 30.0%
+
+//   2: 0.0%
+
+//   3: 8.0%
+
+//   4: -0.0%
+
+//   5: -0.0%
+
+//   6: -0.0%
+
+//   7: 8.0%
+
+//   8: 10.0%
+
+//   9: -0.0%
+
+//   10: -0.0%
+
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.quvideo.xiaoying/.app.SplashActivity;end
+
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quvideo.xiaoying/.app.SplashActivity } in package com.quvideo.xiaoying
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(956.0,141.0)
+
+:Sending Touch (ACTION_MOVE): 0:(958.8193,142.4866)
+
+:Sending Touch (ACTION_MOVE): 0:(960.4949,144.34138)
+
+:Sending Touch (ACTION_UP): 0:(961.35834,146.47563)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(535.0,746.0)
+
+:Sending Touch (ACTION_UP): 0:(526.7803,751.9696)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+
+Sleeping for 500 milliseconds
+
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.quvideo.xiaoying/.app.SplashActivity;end
+
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quvideo.xiaoying/.app.SplashActivity } in package com.quvideo.xiaoying
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(708.0,1197.0)
+
+:Sending Touch (ACTION_UP): 0:(708.02545,1183.1755)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+
+Sleeping for 500 milliseconds
+
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+
+:Sending Touch (ACTION_DOWN): 0:(192.0,1554.0)
+
+:Sending Touch (ACTION_UP): 0:(188.8457,1554.3627)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(526.0,1106.0)
+
+:Sending Touch (ACTION_MOVE): 0:(526.2598,1094.6035)
+
+:Sending Touch (ACTION_MOVE): 0:(528.6059,1094.4462)
+
+:Sending Touch (ACTION_MOVE): 0:(535.04846,1086.8477)
+
+:Sending Touch (ACTION_UP): 0:(539.8848,1076.1066)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(674.0,797.0)
+
+:Sending Touch (ACTION_MOVE): 0:(671.29285,795.5073)
+
+:Sending Touch (ACTION_MOVE): 0:(670.22784,794.55054)
+
+:Sending Touch (ACTION_MOVE): 0:(662.1836,794.07684)
+
+:Sending Touch (ACTION_UP): 0:(658.29736,792.3803)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(646.0,1295.0)
+
+:Sending Touch (ACTION_UP): 0:(646.4895,1299.2786)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(812.0,467.0)
+
+:Sending Touch (ACTION_UP): 0:(818.53204,476.1531)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(591.0,1556.0)
+
+:Sending Touch (ACTION_UP): 0:(613.8099,1541.7743)
+
+Sleeping for 500 milliseconds
+
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(954.0,796.0)
+
+:Sending Touch (ACTION_UP): 0:(956.6377,796.6615)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(380.0,1267.0)
+
+:Sending Touch (ACTION_MOVE): 0:(369.63257,1267.4224)
+
+:Sending Touch (ACTION_MOVE): 0:(361.40237,1267.7168)
+
+:Sending Touch (ACTION_MOVE): 0:(341.3625,1267.7177)
+
+:Sending Touch (ACTION_UP): 0:(323.23016,1268.0253)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(423.0,1462.0)
+
+:Sending Touch (ACTION_UP): 0:(414.67438,1461.9076)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(349.0,2.0)
+
+:Sending Touch (ACTION_MOVE): 0:(348.8415,4.037939)
+
+:Sending Touch (ACTION_UP): 0:(348.07953,10.586854)
+
+Sleeping for 500 milliseconds
+
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.quvideo.xiaoying/.app.SplashActivity;end
+
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quvideo.xiaoying/.app.SplashActivity } in package com.quvideo.xiaoying
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(569.0,172.0)
+
+:Sending Touch (ACTION_UP): 0:(567.63885,191.42958)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(262.0,1902.0)
+
+:Sending Touch (ACTION_UP): 0:(265.77753,1904.5254)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(814.0,77.0)
+
+:Sending Touch (ACTION_UP): 0:(831.8337,84.38753)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(842.0,1912.0)
+
+:Sending Touch (ACTION_UP): 0:(840.88684,1901.0187)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(99.0,1187.0)
+
+:Sending Touch (ACTION_MOVE): 0:(102.594925,1175.7349)
+
+:Sending Touch (ACTION_MOVE): 0:(103.0097,1168.8331)
+
+:Sending Touch (ACTION_UP): 0:(105.577614,1160.6743)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(476.0,1838.0)
+
+:Sending Touch (ACTION_UP): 0:(482.2212,1837.4586)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(114.0,1491.0)
+
+:Sending Touch (ACTION_UP): 0:(114.31583,1493.8837)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(418.0,1305.0)
+
+:Sending Touch (ACTION_UP): 0:(405.90277,1305.406)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(682.0,1582.0)
+
+:Sending Touch (ACTION_UP): 0:(689.45435,1583.374)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(484.0,1579.0)
+
+:Sending Touch (ACTION_MOVE): 0:(492.44257,1580.3917)
+
+:Sending Touch (ACTION_MOVE): 0:(495.12704,1584.4127)
+
+:Sending Touch (ACTION_MOVE): 0:(497.91104,1592.8942)
+
+:Sending Touch (ACTION_MOVE): 0:(499.2348,1598.55)
+
+:Sending Touch (ACTION_MOVE): 0:(501.62003,1599.162)
+
+:Sending Touch (ACTION_UP): 0:(507.79492,1600.3977)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+
+    //[calendar_time:2016-06-29 17:58:43.648  system_uptime:29328578]
+
+    // Sending event #100
+
+Sleeping for 500 milliseconds
+
+    //[calendar_time:2016-06-29 17:58:44.253  system_uptime:29329080]
+
+    // Sending event #100
+
+:Sending Touch (ACTION_DOWN): 0:(608.0,1022.0)
+
+:Sending Touch (ACTION_UP): 0:(617.4607,1029.5514)
+
+Sleeping for 500 milliseconds
+
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.quvideo.xiaoying/.app.SplashActivity;end
+
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quvideo.xiaoying/.app.SplashActivity } in package com.quvideo.xiaoying
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(591.0,1113.0)
+
+:Sending Touch (ACTION_UP): 0:(582.04474,1113.9482)
+
+Sleeping for 500 milliseconds
+
+    // Rejecting start of Intent { act=android.intent.action.GET_CONTENT typ=image/* cmp=android/com.android.internal.app.ResolverActivity } in package android
+
+:Sending Touch (ACTION_DOWN): 0:(292.0,538.0)
+
+:Sending Touch (ACTION_UP): 0:(303.3065,530.0137)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(488.0,1129.0)
+
+:Sending Touch (ACTION_UP): 0:(491.0281,1131.9976)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(428.0,1242.0)
+
+:Sending Touch (ACTION_MOVE): 0:(420.1978,1241.5983)
+
+:Sending Touch (ACTION_MOVE): 0:(405.869,1241.2555)
+
+:Sending Touch (ACTION_MOVE): 0:(404.19186,1240.6199)
+
+:Sending Touch (ACTION_MOVE): 0:(400.80243,1239.1471)
+
+:Sending Touch (ACTION_MOVE): 0:(393.48325,1237.9136)
+
+:Sending Touch (ACTION_MOVE): 0:(383.46136,1236.2777)
+
+:Sending Touch (ACTION_MOVE): 0:(371.83737,1235.9885)
+
+:Sending Touch (ACTION_UP): 0:(363.001,1235.5258)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(326.0,878.0)
+
+:Sending Touch (ACTION_UP): 0:(331.00818,879.86487)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(242.0,1066.0)
+
+:Sending Touch (ACTION_MOVE): 0:(242.77925,1078.7454)
+
+:Sending Touch (ACTION_MOVE): 0:(243.33134,1079.3712)
+
+:Sending Touch (ACTION_MOVE): 0:(244.69069,1087.7438)
+
+:Sending Touch (ACTION_MOVE): 0:(246.7233,1098.694)
+
+:Sending Touch (ACTION_MOVE): 0:(247.32558,1107.1526)
+
+:Sending Touch (ACTION_MOVE): 0:(247.80557,1112.8588)
+
+:Sending Touch (ACTION_UP): 0:(250.096,1119.765)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(845.0,1670.0)
+
+:Sending Touch (ACTION_UP): 0:(840.0477,1670.6741)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(829.0,880.0)
+
+:Sending Touch (ACTION_UP): 0:(827.2185,874.7834)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(529.0,999.0)
+
+:Sending Touch (ACTION_MOVE): 0:(511.74878,1001.326)
+
+:Sending Touch (ACTION_MOVE): 0:(497.69717,1004.83923)
+
+:Sending Touch (ACTION_UP): 0:(482.69073,1008.5339)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(404.0,1447.0)
+
+:Sending Touch (ACTION_UP): 0:(411.3419,1425.991)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(510.0,220.0)
+
+:Sending Touch (ACTION_UP): 0:(509.36597,217.49535)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(735.0,31.0)
+
+:Sending Touch (ACTION_UP): 0:(741.97064,14.596531)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(189.0,861.0)
+
+:Sending Touch (ACTION_UP): 0:(184.76678,859.8306)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(286.0,1361.0)
+
+:Sending Touch (ACTION_UP): 0:(283.22586,1363.0588)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(154.0,525.0)
+
+:Sending Touch (ACTION_UP): 0:(160.25851,513.8498)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(286.0,1478.0)
+
+:Sending Touch (ACTION_UP): 0:(291.9498,1489.2346)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(1010.0,1061.0)
+
+:Sending Touch (ACTION_UP): 0:(1012.77454,1053.3933)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(181.0,192.0)
+
+:Sending Touch (ACTION_UP): 0:(160.58742,190.67543)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(84.0,871.0)
+
+:Sending Touch (ACTION_UP): 0:(88.10383,883.83124)
+
+Sleeping for 500 milliseconds
+
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(245.0,612.0)
+
+:Sending Touch (ACTION_UP): 0:(245.77899,600.81335)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(887.0,1227.0)
+
+:Sending Touch (ACTION_MOVE): 0:(900.0055,1236.6381)
+
+:Sending Touch (ACTION_MOVE): 0:(907.7131,1237.6537)
+
+:Sending Touch (ACTION_MOVE): 0:(921.7489,1242.9974)
+
+:Sending Touch (ACTION_MOVE): 0:(929.6988,1253.4244)
+
+:Sending Touch (ACTION_MOVE): 0:(943.42535,1261.1144)
+
+:Sending Touch (ACTION_MOVE): 0:(943.6299,1275.2819)
+
+:Sending Touch (ACTION_MOVE): 0:(950.9526,1277.1874)
+
+:Sending Touch (ACTION_MOVE): 0:(961.29565,1286.851)
+
+:Sending Touch (ACTION_MOVE): 0:(961.5696,1292.3689)
+
+:Sending Touch (ACTION_UP): 0:(961.8772,1293.3164)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(971.0,1402.0)
+
+:Sending Touch (ACTION_MOVE): 0:(968.0482,1402.2173)
+
+:Sending Touch (ACTION_MOVE): 0:(967.5939,1413.0914)
+
+:Sending Touch (ACTION_MOVE): 0:(959.3455,1429.9655)
+
+:Sending Touch (ACTION_MOVE): 0:(957.3714,1439.8857)
+
+:Sending Touch (ACTION_MOVE): 0:(955.2155,1449.3369)
+
+:Sending Touch (ACTION_MOVE): 0:(954.0721,1452.378)
+
+:Sending Touch (ACTION_MOVE): 0:(953.55927,1453.6042)
+
+:Sending Touch (ACTION_MOVE): 0:(949.43756,1459.2031)
+
+:Sending Touch (ACTION_MOVE): 0:(945.91956,1461.7197)
+
+:Sending Touch (ACTION_UP): 0:(941.8672,1469.8854)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(182.0,943.0)
+
+:Sending Touch (ACTION_UP): 0:(178.58505,946.08856)
+
+Sleeping for 500 milliseconds
+
+    // Rejecting start of Intent { act=android.media.action.IMAGE_CAPTURE cmp=com.android.camera/.Camera } in package com.android.camera
+
+:Sending Touch (ACTION_DOWN): 0:(179.0,1774.0)
+
+:Sending Touch (ACTION_UP): 0:(184.32414,1768.4084)
+
+Sleeping for 500 milliseconds
+
+:Sending Touch (ACTION_DOWN): 0:(450.0,907.0)
+
+:Sending Touch (ACTION_MOVE): 0:(449.19186,917.92896)
+
+:Sending Touch (ACTION_MOVE): 0:(447.63724,936.6856)
+
+:Sending Touch (ACTION_MOVE): 0:(446.46255,951.8829)
+
+:Sending Touch (ACTION_MOVE): 0:(445.55533,955.5677)
+
+:Sending Touch (ACTION_MOVE): 0:(445.39056,956.734)
+
+:Sending Touch (ACTION_MOVE): 0:(444.42706,962.46)
+
+:Sending Touch (ACTION_UP): 0:(443.51797,975.56683)
+
+Events injected: 200
+
+:Sending rotation degree=0, persist=false
+
+:Dropped: keys=0 pointers=6 trackballs=0 flips=0 rotations=0
+
+## Network stats: elapsed time=34097ms (0ms mobile, 0ms wifi, 34097ms not connected)
+
+// Monkey finished
+
